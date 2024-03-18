@@ -3,7 +3,7 @@ import json
 
 from flask import Flask, request, jsonify
 
-import socket
+#import socket
 
 app = Flask(__name__)
 
@@ -22,7 +22,7 @@ def handle_webhook():
         message = data['query']['message']
 
         
-        server_ip = socket.gethostbyname(socket.gethostname())
+        #server_ip = socket.gethostbyname(socket.gethostname())
 
         # Process the request (you can customize this logic)
 
@@ -39,7 +39,7 @@ def handle_webhook():
         }
 
      
-        print(f"Server IP address: {server_ip}")
+        #print(f"Server IP address: {server_ip}")
 
         return jsonify(response_data), 200
 
