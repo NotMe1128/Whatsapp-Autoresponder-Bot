@@ -21,11 +21,11 @@ def save_user_tables(user_tables):
 # Establish a database connection at the top level of the script
 try:
     connection = mysql.connector.connect(
-        host='mysql.db.bot-hosting.net',
+        host='host url',
         port=3306,
-        database='s60948_WhatsappServer',
-        user='u60948_ovptpKXEDs',
-        password='8mku@00c27D5Mt8UWcU=oRZe'
+        database='db',
+        user='user',
+        password='pass'
     )
     cursor = connection.cursor()
 except Error as e:
