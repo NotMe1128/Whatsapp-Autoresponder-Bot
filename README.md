@@ -6,4 +6,4 @@
 
 🔹In the whatsapp auoresponder app, set up the app to direct the message requests to -> https://webserver-ip:port/websocket.
 
-▪️[optional]- Add your database details in database.py if u want to run commands associated with database.
+▪️ [optional]- Add your database details in database.py if u want to run commands associated with database.
